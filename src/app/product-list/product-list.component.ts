@@ -9,9 +9,6 @@ import { Component } from '@angular/core';
 export class ProductListComponent {
   products = [...products];
 
-  //productIdLink =
-
-
   share() {
     window.alert('The product has been shared!');
   }
